@@ -1,0 +1,13 @@
+Higher Order Component (HOC)
+A HOC is a function that takes a component as an argument and returns a new enhanced component.
+
+adding extra functionality
+code reuse
+logic abstraction
+
+https://example.com/products/123?sort=asc&category=electronics
+
+https:// => protocol
+example.com => domain
+/products/123 => path (with path parameter)
+?sort=asc&category=electronics => query parameter
