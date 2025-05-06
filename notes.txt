@@ -11,3 +11,54 @@ https:// => protocol
 example.com => domain
 /products/123 => path (with path parameter)
 ?sort=asc&category=electronics => query parameter
+
+
+
+
+Activity 2
+Library Component
+    nav
+        link - Authors
+        link - Genres
+
+    Outlet
+
+
+Compontnt - Authors
+
+Component - Genres
+
+Component - App
+    nav
+        link - library
+
+    routes
+        route - library
+            route - authors
+            route - genres
+
+
+Class Components
+---------------------------------
+class component creation
+
+props
+    this.props
+
+state
+    this.state
+    this.setState()
+
+
+lifecycle methods
+    different phases of a component
+
+    1. mounting phase (when component gets created)
+        constructor()
+        componentDidMount()
+
+    2. updating phase (when state or props gets updated)
+        componentDidUpdate()
+
+    3. unmounting phase (when component is about to destroy)
+        componentWillUnmount()
