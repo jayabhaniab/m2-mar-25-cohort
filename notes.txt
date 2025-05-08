@@ -62,3 +62,36 @@ lifecycle methods
 
     3. unmounting phase (when component is about to destroy)
         componentWillUnmount()
+
+
+
+
+useEffect
+----------------
+useEffect(callback, dependency array);
+
+
+
+component re-renders when state or prop changes
+
+
+
+
+useContext
+----------------------
+step 1 - create context file        ✅
+step 2 - create a provider component  ✅
+step 3 - use provider in App component ✅
+step 4 - consume context in components ✅
+
+
+
+
+We are building a Counter + Theme Changer App using CounterContext
+1. Count: kepps track of the counter value
+2. Theme: switches between light and dark
+3. Both managed under one context
+
+step 1 - create the context
+step 2 - use Provider in App.jsx
+step 3 - consume the Context in CounterDashboard.jsx
