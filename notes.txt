@@ -156,3 +156,126 @@ example 1 (redux)
 5. connect store to react   ✅
 6. create Counter component ✅
 7. use Counter component in App ✅
+
+
+
+
+redux
+-----
+- more boilerplate code
+- manually create reducers and actions
+- can't directly mutate the state
+
+
+
+
+redux toolkit
+-------------
+- less boilerplate code
+- slice (reducers + actions)
+- you can mutate the state directly
+
+
+
+thunk
+----------
+
+
+
+
+optimization
+----------------
+prop drilling vs context api
+useMemo
+useCallback
+debouncing and throttling
+lazy loading
+
+
+
+
+
+error handling
+--------------
+error boundary
+
+try catch
+
+async function fetchdata() {
+    try {
+        // data fetching code
+    } catch(error) {
+        // handle error
+    }
+}
+
+function handleClick() {
+    try {
+        throw new Error("button click error!");
+    } catch(error) {
+        setMessage("something went wrong");
+    }
+}
+
+then and catch
+
+
+debugging
+---------
+console.log()
+
+debugger
+
+react developer tools
+
+
+
+
+
+common errors
+------------------------
+1. syntax error
+const sum = (a, b => {
+    // ...
+}
+
+2. reference error
+cl(userName);
+
+3. type error
+const num = 52;
+num()
+
+
+common error scenarios in react
+-------------------------------
+1. cannot read property 'X' of undefined
+const user = null
+cl(user.name);
+
+2. each child in a list should have a unique key props
+
+3. using useState
+using hook outside component
+
+
+function one() {
+    useState()  // ❌
+    return a + b;
+}
+
+
+
+
+
+
+netlify
+---------------------------
+web hosting & deployment -- fast & free!
+continuous deployment
+automatic site build
+CDN
+no backend handling
+custom domain
+A/B testing 
+authentication & user management
